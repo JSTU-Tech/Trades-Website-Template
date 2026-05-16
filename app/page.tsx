@@ -1,32 +1,109 @@
-export default function EmergencyPlumberDemo() {
+import {
+  Phone,
+  ShieldCheck,
+  Star,
+  ArrowRight,
+  Wrench,
+  Clock3,
+  CheckCircle2,
+  BadgeCheck,
+  Flame,
+  ChevronRight,
+  MapPin,
+} from 'lucide-react'
+
+const services = [
+  {
+    title: 'Emergency Plumbing',
+    desc: 'Rapid-response repairs for leaks, burst pipes, blocked drains, and emergencies.',
+    icon: <Wrench className="h-6 w-6" />,
+  },
+  {
+    title: 'Boiler Installations',
+    desc: 'Premium boiler replacements, servicing, diagnostics, and heating upgrades.',
+    icon: <Flame className="h-6 w-6" />,
+  },
+  {
+    title: 'Bathroom Renovations',
+    desc: 'High-end bathroom plumbing and luxury renovation installations.',
+    icon: <BadgeCheck className="h-6 w-6" />,
+  },
+]
+
+const reviews = [
+  {
+    name: 'Sarah Thompson',
+    review:
+      'The website instantly made them look more professional than every other plumber we checked. Fast response and excellent work.',
+  },
+  {
+    name: 'James Carter',
+    review:
+      'Everything felt premium from the first phone call. Extremely trustworthy and efficient.',
+  },
+  {
+    name: 'Emily Walker',
+    review:
+      'The best contractor experience we’ve had. Clean, modern, and genuinely reliable.',
+  },
+]
+
+export default function PremiumTradesWebsite() {
   return (
-    <div className="min-h-screen bg-white text-zinc-900">
-      {/* NAVBAR */}
-      <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <div>
-            <h1 className="text-xl font-bold tracking-tight">RapidFlow Plumbing</h1>
-            <p className="text-xs text-zinc-500">24/7 Emergency Plumbing</p>
+    <main className="min-h-screen overflow-hidden bg-[#060816] text-white">
+      {/* BACKGROUND EFFECTS */}
+      <div className="pointer-events-none fixed inset-0">
+        <div className="absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-cyan-500/20 blur-[140px]" />
+        <div className="absolute bottom-[-10%] right-[-10%] h-[500px] w-[500px] rounded-full bg-blue-600/20 blur-[140px]" />
+      </div>
+
+      {/* TOP BAR */}
+      <div className="relative z-50 border-b border-white/10 bg-cyan-500 text-black">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 text-sm font-bold">
+          <div className="flex items-center gap-2">
+            <Clock3 className="h-4 w-4" />
+            24/7 Emergency Callouts Available
           </div>
 
-          <nav className="hidden gap-8 text-sm font-medium md:flex">
-            <a href="#services" className="transition hover:text-zinc-500">
+          <div className="hidden md:block">
+            Average Response Time: Under 45 Minutes
+          </div>
+        </div>
+      </div>
+
+      {/* NAVBAR */}
+      <header className="sticky top-0 z-40 border-b border-white/10 bg-[#060816]/80 backdrop-blur-xl">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+          <div>
+            <h1 className="text-2xl font-black tracking-tight text-white">
+              PrimeFlow Services
+            </h1>
+            <p className="text-sm text-slate-400">
+              Premium Emergency Plumbing & Heating
+            </p>
+          </div>
+
+          <nav className="hidden items-center gap-8 text-sm font-semibold text-slate-300 lg:flex">
+            <a href="#services" className="hover:text-cyan-400">
               Services
             </a>
-            <a href="#reviews" className="transition hover:text-zinc-500">
+            <a href="#why" className="hover:text-cyan-400">
+              Why Us
+            </a>
+            <a href="#projects" className="hover:text-cyan-400">
+              Projects
+            </a>
+            <a href="#reviews" className="hover:text-cyan-400">
               Reviews
             </a>
-            <a href="#about" className="transition hover:text-zinc-500">
-              About
-            </a>
-            <a href="#contact" className="transition hover:text-zinc-500">
+            <a href="#contact" className="hover:text-cyan-400">
               Contact
             </a>
           </nav>
 
           <a
             href="tel:01234567890"
-            className="rounded-xl bg-zinc-900 px-5 py-3 text-sm font-semibold text-white transition hover:bg-zinc-700"
+            className="hidden rounded-2xl bg-cyan-400 px-6 py-3 text-sm font-bold text-black transition hover:scale-105 md:inline-flex"
           >
             Call Now
           </a>
@@ -34,177 +111,283 @@ export default function EmergencyPlumberDemo() {
       </header>
 
       {/* HERO */}
-      <section className="relative overflow-hidden border-b border-zinc-200 bg-zinc-50">
-        <div className="mx-auto grid max-w-7xl gap-16 px-6 py-24 lg:grid-cols-2 lg:items-center">
+      <section className="relative z-10">
+        <div className="mx-auto grid max-w-7xl gap-16 px-6 py-24 lg:grid-cols-2 lg:items-center lg:py-32">
           <div>
-            <div className="mb-6 inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 text-sm font-medium text-emerald-700">
-              Available 24/7 Across Bristol
+            <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 px-5 py-3 text-sm font-semibold text-cyan-300">
+              <ShieldCheck className="h-4 w-4" />
+              Trusted By 1,000+ Local Homeowners
             </div>
 
-            <h2 className="max-w-2xl text-5xl font-black leading-tight tracking-tight md:text-6xl">
-              Emergency Plumbing That Arrives Fast.
+            <h2 className="mt-8 text-6xl font-black leading-[0.95] tracking-tight text-white lg:text-7xl">
+              Websites That Make Trades Businesses Look Dominant.
             </h2>
 
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-zinc-600">
-              Burst pipes, boiler issues, blocked drains, and urgent leaks repaired by trusted local plumbers.
-              Fast response times. Transparent pricing. 5-star rated service.
+            <p className="mt-8 max-w-2xl text-xl leading-relaxed text-slate-300">
+              This premium trades website system is engineered around one goal:
+              helping local service businesses generate more calls, more trust,
+              and higher-paying customers.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
-                href="tel:01234567890"
-                className="rounded-2xl bg-zinc-900 px-8 py-4 text-center text-base font-semibold text-white transition hover:bg-zinc-700"
+                href="#contact"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-cyan-400 px-8 py-5 text-lg font-bold text-black transition hover:scale-105"
               >
-                Call Emergency Line
+                Request Free Quote
+                <ArrowRight className="h-5 w-5" />
               </a>
 
               <a
-                href="#quote"
-                className="rounded-2xl border border-zinc-300 bg-white px-8 py-4 text-center text-base font-semibold transition hover:bg-zinc-100"
+                href="tel:01234567890"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-8 py-5 text-lg font-semibold text-white transition hover:bg-white/10"
               >
-                Request Free Quote
+                <Phone className="h-5 w-5" />
+                Emergency Call
               </a>
             </div>
 
-            <div className="mt-10 flex flex-wrap gap-6 text-sm text-zinc-500">
-              <div>✓ 15+ Years Experience</div>
-              <div>✓ Fully Insured</div>
-              <div>✓ Same Day Service</div>
+            <div className="mt-12 flex flex-wrap gap-8 text-sm font-medium text-slate-400">
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="h-4 w-4 text-cyan-400" />
+                Fully Insured
+              </div>
+
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="h-4 w-4 text-cyan-400" />
+                Licensed Engineers
+              </div>
+
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="h-4 w-4 text-cyan-400" />
+                Same Day Service
+              </div>
             </div>
           </div>
 
+          {/* HERO CARD */}
           <div className="relative">
-            <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-2xl">
+            <div className="absolute inset-0 rounded-[2rem] bg-cyan-400/20 blur-3xl" />
+
+            <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.04] shadow-2xl backdrop-blur-xl">
               <img
                 src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=80&w=1600&auto=format&fit=crop"
-                alt="Plumber working"
-                className="h-[520px] w-full rounded-2xl object-cover"
+                alt="Trades Engineer"
+                className="h-[700px] w-full object-cover"
               />
+
+              <div className="absolute inset-0 bg-gradient-to-t from-[#060816] via-transparent to-transparent" />
+
+              <div className="absolute bottom-0 left-0 right-0 p-8">
+                <div className="rounded-3xl border border-white/10 bg-black/40 p-6 backdrop-blur-xl">
+                  <div className="flex items-center justify-between gap-4">
+                    <div>
+                      <p className="text-sm text-slate-300">
+                        Emergency response average
+                      </p>
+
+                      <h3 className="mt-2 text-5xl font-black text-white">
+                        38 mins
+                      </h3>
+                    </div>
+
+                    <div className="rounded-2xl bg-cyan-400 px-5 py-4 text-sm font-bold text-black">
+                      Available Now
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* TRUST BAR */}
-      <section className="border-b border-zinc-200 bg-white">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-8 px-6 py-8 text-sm font-medium text-zinc-500">
-          <div>⭐ 4.9/5 Average Rating</div>
-          <div>500+ Emergency Repairs Completed</div>
-          <div>Trusted Across Bristol & Bath</div>
-          <div>Fully Certified Engineers</div>
+      {/* STATS */}
+      <section className="relative z-10 border-y border-white/10 bg-white/[0.03] py-10 backdrop-blur-xl">
+        <div className="mx-auto grid max-w-7xl gap-8 px-6 text-center md:grid-cols-4">
+          {[
+            ['1,200+', 'Local Jobs Completed'],
+            ['4.9★', 'Average Google Rating'],
+            ['15+', 'Years Experience'],
+            ['24/7', 'Emergency Availability'],
+          ].map(([value, label]) => (
+            <div key={label}>
+              <div className="text-5xl font-black text-cyan-400">{value}</div>
+              <p className="mt-3 text-slate-400">{label}</p>
+            </div>
+          ))}
         </div>
       </section>
 
       {/* SERVICES */}
-      <section id="services" className="bg-white py-24">
+      <section id="services" className="relative z-10 py-28">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-zinc-500">
-              Services
+          <div className="max-w-3xl">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-400">
+              Premium Service Structure
             </p>
-            <h3 className="mt-4 text-4xl font-black tracking-tight">
-              Plumbing Services Built Around Fast Response.
+
+            <h3 className="mt-5 text-5xl font-black tracking-tight text-white">
+              Built Around What Actually Converts Homeowners.
             </h3>
           </div>
 
-          <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-            {[
-              {
-                title: 'Emergency Repairs',
-                text: 'Rapid response for leaks, burst pipes, and urgent plumbing issues.',
-              },
-              {
-                title: 'Boiler Services',
-                text: 'Boiler repairs, installations, servicing, and diagnostics.',
-              },
-              {
-                title: 'Drain Unblocking',
-                text: 'Fast and effective drain cleaning and blockage removal.',
-              },
-              {
-                title: 'Bathroom Plumbing',
-                text: 'High-quality plumbing installations and renovations.',
-              },
-            ].map((service) => (
+          <div className="mt-16 grid gap-8 lg:grid-cols-3">
+            {services.map((service) => (
               <div
                 key={service.title}
-                className="rounded-3xl border border-zinc-200 bg-zinc-50 p-8 transition hover:-translate-y-1 hover:shadow-xl"
+                className="group rounded-[2rem] border border-white/10 bg-white/[0.03] p-8 backdrop-blur-xl transition duration-300 hover:-translate-y-2 hover:border-cyan-400/40 hover:bg-cyan-400/5"
               >
-                <h4 className="text-xl font-bold">{service.title}</h4>
-                <p className="mt-4 leading-relaxed text-zinc-600">{service.text}</p>
+                <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-cyan-400/10 text-cyan-400">
+                  {service.icon}
+                </div>
+
+                <h4 className="mt-8 text-3xl font-black text-white">
+                  {service.title}
+                </h4>
+
+                <p className="mt-5 leading-relaxed text-slate-400">
+                  {service.desc}
+                </p>
+
+                <button className="mt-8 inline-flex items-center gap-2 font-semibold text-cyan-400 transition group-hover:gap-4">
+                  Learn More
+                  <ChevronRight className="h-5 w-5" />
+                </button>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* BEFORE AFTER */}
-      <section className="border-y border-zinc-200 bg-zinc-50 py-24">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-zinc-500">
-                Why Homeowners Choose Us
-              </p>
-              <h3 className="mt-4 text-4xl font-black tracking-tight">
-                Trusted Local Plumbing Specialists.
-              </h3>
+      {/* WHY US */}
+      <section
+        id="why"
+        className="relative z-10 border-y border-white/10 bg-white/[0.03] py-28 backdrop-blur-xl"
+      >
+        <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:grid-cols-2 lg:items-center">
+          <div>
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-400">
+              Why These Websites Work
+            </p>
 
-              <div className="mt-10 space-y-6">
-                {[
-                  'Fast response times across Bristol',
-                  'Transparent pricing with no hidden fees',
-                  'Clean, professional workmanship',
-                  'Modern tools and efficient diagnostics',
-                ].map((item) => (
-                  <div key={item} className="flex items-start gap-4">
-                    <div className="mt-1 h-3 w-3 rounded-full bg-zinc-900" />
-                    <p className="text-lg text-zinc-700">{item}</p>
-                  </div>
-                ))}
+            <h3 className="mt-5 text-5xl font-black tracking-tight text-white">
+              Designed Around Real Buyer Psychology.
+            </h3>
+
+            <div className="mt-10 space-y-8">
+              {[
+                'Premium aesthetics increase perceived professionalism.',
+                'Emergency-first layouts increase call conversions.',
+                'Trust-heavy design reduces hesitation instantly.',
+                'Mobile-first UX captures urgent searches.',
+                'Fast performance improves SEO and conversions.',
+              ].map((item) => (
+                <div key={item} className="flex gap-4">
+                  <div className="mt-2 h-3 w-3 rounded-full bg-cyan-400" />
+                  <p className="text-lg text-slate-300">{item}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="grid gap-6 sm:grid-cols-2">
+            {[
+              'Mobile Optimized',
+              'Local SEO Ready',
+              'Fast Loading',
+              'Conversion Focused',
+            ].map((item) => (
+              <div
+                key={item}
+                className="rounded-[2rem] border border-white/10 bg-black/30 p-10"
+              >
+                <h4 className="text-2xl font-black text-white">{item}</h4>
+                <p className="mt-4 text-slate-400">
+                  Built specifically for modern trades lead generation.
+                </p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* PROJECTS */}
+      <section id="projects" className="relative z-10 py-28">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="flex flex-col justify-between gap-10 lg:flex-row lg:items-end">
+            <div className="max-w-3xl">
+              <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-400">
+                Recent Projects
+              </p>
+
+              <h3 className="mt-5 text-5xl font-black tracking-tight text-white">
+                Real Visual Proof Builds Trust Faster Than Words.
+              </h3>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
-              <img
-                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop"
-                alt="Plumbing work"
-                className="h-72 w-full rounded-3xl object-cover"
-              />
-              <img
-                src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop"
-                alt="Plumber repair"
-                className="h-72 w-full rounded-3xl object-cover"
-              />
-            </div>
+            <p className="max-w-xl text-lg text-slate-400">
+              High-converting trades websites should showcase real projects,
+              engineers, vehicles, and transformations.
+            </p>
+          </div>
+
+          <div className="mt-16 grid gap-6 lg:grid-cols-3">
+            {[
+              'https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop',
+              'https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop',
+              'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop',
+            ].map((image, index) => (
+              <div
+                key={index}
+                className="group overflow-hidden rounded-[2rem] border border-white/10"
+              >
+                <img
+                  src={image}
+                  alt="Project"
+                  className="h-[450px] w-full object-cover transition duration-700 group-hover:scale-110"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* REVIEWS */}
-      <section id="reviews" className="bg-white py-24">
+      <section
+        id="reviews"
+        className="relative z-10 border-y border-white/10 bg-white/[0.03] py-28 backdrop-blur-xl"
+      >
         <div className="mx-auto max-w-7xl px-6">
-          <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-zinc-500">
-              Reviews
+          <div className="max-w-3xl">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-400">
+              Customer Reviews
             </p>
-            <h3 className="mt-4 text-4xl font-black tracking-tight">
-              Trusted By Local Homeowners.
+
+            <h3 className="mt-5 text-5xl font-black tracking-tight text-white">
+              Trust Is The Most Important Conversion Tool.
             </h3>
           </div>
 
-          <div className="mt-16 grid gap-6 lg:grid-cols-3">
-            {[
-              'Fastest response we’ve ever had from a plumber. Completely professional from start to finish.',
-              'Our leak was fixed within an hour. Website made it easy to call immediately.',
-              'Clean work, transparent pricing, and genuinely trustworthy engineers.',
-            ].map((review, index) => (
+          <div className="mt-16 grid gap-8 lg:grid-cols-3">
+            {reviews.map((review) => (
               <div
-                key={index}
-                className="rounded-3xl border border-zinc-200 bg-zinc-50 p-8"
+                key={review.name}
+                className="rounded-[2rem] border border-white/10 bg-black/30 p-8"
               >
-                <div className="mb-4 text-lg">⭐⭐⭐⭐⭐</div>
-                <p className="leading-relaxed text-zinc-700">“{review}”</p>
+                <div className="mb-6 flex gap-1 text-yellow-400">
+                  <Star className="h-5 w-5 fill-yellow-400" />
+                  <Star className="h-5 w-5 fill-yellow-400" />
+                  <Star className="h-5 w-5 fill-yellow-400" />
+                  <Star className="h-5 w-5 fill-yellow-400" />
+                  <Star className="h-5 w-5 fill-yellow-400" />
+                </div>
+
+                <p className="text-lg leading-relaxed text-slate-300">
+                  “{review.review}”
+                </p>
+
+                <div className="mt-8 font-bold text-white">{review.name}</div>
               </div>
             ))}
           </div>
@@ -212,64 +395,70 @@ export default function EmergencyPlumberDemo() {
       </section>
 
       {/* CTA */}
-      <section id="quote" className="bg-zinc-900 py-24 text-white">
-        <div className="mx-auto max-w-4xl px-6 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-zinc-400">
-            Emergency Plumbing Support
-          </p>
+      <section id="contact" className="relative z-10 py-32">
+        <div className="mx-auto max-w-5xl px-6 text-center">
+          <div className="rounded-[2rem] border border-cyan-400/20 bg-cyan-400/10 p-12 backdrop-blur-xl">
+            <p className="text-sm font-bold uppercase tracking-[0.25em] text-cyan-300">
+              Built For More Leads
+            </p>
 
-          <h3 className="mt-4 text-5xl font-black tracking-tight">
-            Need a Plumber Fast?
-          </h3>
+            <h3 className="mt-6 text-6xl font-black leading-tight text-white">
+              Your Website Should Help You Charge More & Win More Jobs.
+            </h3>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-zinc-300">
-            Contact our team today for urgent plumbing repairs, same-day appointments, and transparent quotes.
-          </p>
+            <p className="mx-auto mt-8 max-w-3xl text-xl leading-relaxed text-slate-300">
+              This template system combines premium branding, modern UX,
+              conversion psychology, and local SEO strategy to help trades
+              businesses dominate their area.
+            </p>
 
-          <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a
-              href="tel:01234567890"
-              className="rounded-2xl bg-white px-8 py-4 text-base font-semibold text-zinc-900 transition hover:bg-zinc-200"
-            >
-              Call Emergency Line
-            </a>
+            <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
+              <a
+                href="tel:01234567890"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-cyan-400 px-8 py-5 text-lg font-bold text-black transition hover:scale-105"
+              >
+                <Phone className="h-5 w-5" />
+                Call Emergency Line
+              </a>
 
-            <a
-              href="#contact"
-              className="rounded-2xl border border-zinc-700 px-8 py-4 text-base font-semibold transition hover:bg-zinc-800"
-            >
-              Request Callback
-            </a>
+              <a
+                href="#"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-8 py-5 text-lg font-semibold text-white transition hover:bg-white/10"
+              >
+                Request Free Quote
+                <ArrowRight className="h-5 w-5" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
 
       {/* FOOTER */}
-      <footer id="contact" className="border-t border-zinc-200 bg-white py-12">
-        <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 md:flex-row md:items-center md:justify-between">
+      <footer className="relative z-10 border-t border-white/10 py-10">
+        <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
           <div>
-            <h4 className="text-lg font-bold">RapidFlow Plumbing</h4>
-            <p className="mt-2 text-zinc-500">
-              Serving Bristol & surrounding areas.
-            </p>
+            © 2026 PrimeFlow Services. Premium Trades Website System.
           </div>
 
-          <div className="text-sm text-zinc-500">
-            © 2026 RapidFlow Plumbing. All rights reserved.
+          <div className="flex flex-wrap gap-6">
+            <div className="flex items-center gap-2">
+              <MapPin className="h-4 w-4" />
+              Bristol • Bath • Cardiff
+            </div>
           </div>
         </div>
       </footer>
 
-      {/* MOBILE STICKY CTA */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-zinc-200 bg-white p-4 md:hidden">
+      {/* MOBILE CTA */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 border-t border-white/10 bg-[#060816]/95 p-4 backdrop-blur-xl md:hidden">
         <a
           href="tel:01234567890"
-          className="block rounded-2xl bg-zinc-900 py-4 text-center text-base font-semibold text-white"
+          className="flex items-center justify-center gap-2 rounded-2xl bg-cyan-400 py-4 text-base font-bold text-black"
         >
+          <Phone className="h-5 w-5" />
           Call Emergency Plumber
         </a>
       </div>
-    </div>
+    </main>
   )
 }
-
