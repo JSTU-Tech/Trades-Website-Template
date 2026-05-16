@@ -14,18 +14,18 @@ import {
 
 const services = [
   {
-    title: 'Emergency Plumbing',
-    desc: 'Rapid-response repairs for leaks, burst pipes, blocked drains, and emergencies.',
+    title: 'Residential & Commercial Services',
+    desc: 'Flexible trade solutions for homeowners, landlords, offices, retail, and commercial properties.',
     icon: <Wrench className="h-6 w-6" />,
   },
   {
-    title: 'Boiler Installations',
-    desc: 'Premium boiler replacements, servicing, diagnostics, and heating upgrades.',
+    title: 'Renovations & Installations',
+    desc: 'High-end project work, refurbishments, installations, upgrades, and property improvements.',
     icon: <Flame className="h-6 w-6" />,
   },
   {
-    title: 'Bathroom Renovations',
-    desc: 'High-end bathroom plumbing and luxury renovation installations.',
+    title: 'Maintenance & Repairs',
+    desc: 'Reliable ongoing maintenance, inspections, servicing, repairs, and reactive support.',
     icon: <BadgeCheck className="h-6 w-6" />,
   },
 ]
@@ -62,11 +62,11 @@ export default function PremiumTradesWebsite() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3 text-sm font-bold">
           <div className="flex items-center gap-2">
             <Clock3 className="h-4 w-4" />
-            24/7 Emergency Callouts Available
+            Premium Trade Solutions Across Your Area
           </div>
 
           <div className="hidden md:block">
-            Average Response Time: Under 45 Minutes
+            Trusted By Residential & Commercial Clients
           </div>
         </div>
       </div>
@@ -76,10 +76,10 @@ export default function PremiumTradesWebsite() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
           <div>
             <h1 className="text-2xl font-black tracking-tight text-white">
-              PrimeFlow Services
+              Elevate Trade Group
             </h1>
             <p className="text-sm text-slate-400">
-              Premium Emergency Plumbing & Heating
+              Premium Local Trade Specialists
             </p>
           </div>
 
@@ -116,17 +116,15 @@ export default function PremiumTradesWebsite() {
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 px-5 py-3 text-sm font-semibold text-cyan-300">
               <ShieldCheck className="h-4 w-4" />
-              Trusted By 1,000+ Local Homeowners
+              Trusted By Homeowners & Businesses
             </div>
 
             <h2 className="mt-8 text-6xl font-black leading-[0.95] tracking-tight text-white lg:text-7xl">
-              Websites That Make Trades Businesses Look Dominant.
+              Premium Websites Built For Modern Trade Businesses.
             </h2>
 
             <p className="mt-8 max-w-2xl text-xl leading-relaxed text-slate-300">
-              This premium trades website system is engineered around one goal:
-              helping local service businesses generate more calls, more trust,
-              and higher-paying customers.
+              A scalable premium website system designed for builders, electricians, roofers, landscapers, renovation companies, contractors, and modern local service brands that want more leads, stronger positioning, and higher-value customers.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -143,7 +141,7 @@ export default function PremiumTradesWebsite() {
                 className="inline-flex items-center justify-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-8 py-5 text-lg font-semibold text-white transition hover:bg-white/10"
               >
                 <Phone className="h-5 w-5" />
-                Emergency Call
+                Request Callback
               </a>
             </div>
 
@@ -155,12 +153,12 @@ export default function PremiumTradesWebsite() {
 
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-cyan-400" />
-                Licensed Engineers
+                Professional Team
               </div>
 
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="h-4 w-4 text-cyan-400" />
-                Same Day Service
+                Trusted Local Reputation
               </div>
             </div>
           </div>
@@ -183,16 +181,16 @@ export default function PremiumTradesWebsite() {
                   <div className="flex items-center justify-between gap-4">
                     <div>
                       <p className="text-sm text-slate-300">
-                        Emergency response average
+                        Average customer rating
                       </p>
 
                       <h3 className="mt-2 text-5xl font-black text-white">
-                        38 mins
+                        4.9★
                       </h3>
                     </div>
 
                     <div className="rounded-2xl bg-cyan-400 px-5 py-4 text-sm font-bold text-black">
-                      Available Now
+                      Free Estimates
                     </div>
                   </div>
                 </div>
@@ -228,7 +226,7 @@ export default function PremiumTradesWebsite() {
             </p>
 
             <h3 className="mt-5 text-5xl font-black tracking-tight text-white">
-              Built Around What Actually Converts Homeowners.
+              Built Around What Actually Converts Local Customers.
             </h3>
           </div>
 
@@ -278,7 +276,7 @@ export default function PremiumTradesWebsite() {
             <div className="mt-10 space-y-8">
               {[
                 'Premium aesthetics increase perceived professionalism.',
-                'Emergency-first layouts increase call conversions.',
+                'Clear service positioning increases trust and quote requests.',
                 'Trust-heavy design reduces hesitation instantly.',
                 'Mobile-first UX captures urgent searches.',
                 'Fast performance improves SEO and conversions.',
@@ -304,7 +302,7 @@ export default function PremiumTradesWebsite() {
               >
                 <h4 className="text-2xl font-black text-white">{item}</h4>
                 <p className="mt-4 text-slate-400">
-                  Built specifically for modern trades lead generation.
+                  Designed to help modern trade companies stand out online and convert more visitors into enquiries.
                 </p>
               </div>
             ))}
@@ -327,8 +325,7 @@ export default function PremiumTradesWebsite() {
             </div>
 
             <p className="max-w-xl text-lg text-slate-400">
-              High-converting trades websites should showcase real projects,
-              engineers, vehicles, and transformations.
+              Premium local service brands build trust faster when they showcase real projects, craftsmanship, team quality, and completed work.
             </p>
           </div>
 
@@ -407,9 +404,7 @@ export default function PremiumTradesWebsite() {
             </h3>
 
             <p className="mx-auto mt-8 max-w-3xl text-xl leading-relaxed text-slate-300">
-              This template system combines premium branding, modern UX,
-              conversion psychology, and local SEO strategy to help trades
-              businesses dominate their area.
+              This reusable website system combines premium branding, modern UX, conversion psychology, and scalable structure so it can be adapted to almost any trade or service business.
             </p>
 
             <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -418,7 +413,7 @@ export default function PremiumTradesWebsite() {
                 className="inline-flex items-center justify-center gap-2 rounded-2xl bg-cyan-400 px-8 py-5 text-lg font-bold text-black transition hover:scale-105"
               >
                 <Phone className="h-5 w-5" />
-                Call Emergency Line
+                Book Free Consultation
               </a>
 
               <a
@@ -437,7 +432,7 @@ export default function PremiumTradesWebsite() {
       <footer className="relative z-10 border-t border-white/10 py-10">
         <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
           <div>
-            © 2026 PrimeFlow Services. Premium Trades Website System.
+            © 2026 Elevate Trade Group. Premium Trades Website System.
           </div>
 
           <div className="flex flex-wrap gap-6">
@@ -456,7 +451,7 @@ export default function PremiumTradesWebsite() {
           className="flex items-center justify-center gap-2 rounded-2xl bg-cyan-400 py-4 text-base font-bold text-black"
         >
           <Phone className="h-5 w-5" />
-          Call Emergency Plumber
+          Get Free Quote
         </a>
       </div>
     </main>
