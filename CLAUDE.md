@@ -3,36 +3,71 @@
 
 ## Project context
 
-This is a brand-new website design + production agency's demo site. The site itself is the portfolio piece — cold prospects from outreach will judge the founder by it.
+Brand-new website design + production agency's demo site. The site IS the portfolio — cold prospects judge the founder by it. Read DESIGN.md before any code. Brief is locked. Bans absolute.
 
-Read `DESIGN.md` before writing any code. The brief is locked. Bans are absolute. If a design or copy decision isn't covered there, ask before guessing.
+## Tools you MUST use (not optional)
+
+These plugins, skills, and MCPs are installed for a reason. Use them on every build step. If you skip one, the output will look like generic AI work.
+
+### Per-section workflow
+
+For EVERY section/component you build, in this order:
+
+1. **frontend-design plugin** — invoke before writing any markup. State the aesthetic anchor (editorial-typographic), name 2 reference sites from DESIGN.md §2, declare what this section bans from §9.
+2. **Context7 MCP** — fetch version-correct docs for any API you touch (Next.js 16, Motion v12, Tailwind v4). Never write from memory.
+3. **ui-ux-pro-max** — run accessibility + type-pairing + spacing audit before commit. Fix every flag.
+4. **motion-framer skill** — invoke before any animation. Apply DESIGN.md §5 easing and durations exactly. No defaults.
+5. **gsap-scrolltrigger skill** — only for the single narrative scroll moment on the case study page. Nowhere else.
+6. **lottie-animations / scroll-reveal-libraries / locomotive-scroll** — skills are installed, DO NOT use them. DESIGN.md §5 bans them.
+7. **modern-web-design** — reference for any pattern decision you're unsure about.
+8. **magic MCP (21st.dev)** — use for component scaffolding ONLY when faster than writing from scratch. Override every default class (radius, color, type) before committing. Generic Magic UI defaults are banned.
+9. **higgsfield MCP** — generate all hero imagery and case-study visuals. No stock photos. Prompt for warm-toned, editorial, single-subject compositions.
+10. **playwright MCP** — screenshot the section at 1440px and 390px after every change. Compare against DESIGN.md §10 taste test in writing.
+11. **chrome-devtools MCP** — run a Lighthouse + perf trace before declaring a page done. Numbers must hit DESIGN.md §11.
+12. **web-quality-skills (addyosmani)** — invoke `web-quality-audit` before any commit to main. Hard gate.
+
+If a tool isn't invoked, say so explicitly and justify why. Default is: use it.
 
 ## Build conventions
 
-- **Components**: colocated. Page-scoped components live in `app/<route>/_components/`. Shared primitives in `components/`.
-- **Styling**: Tailwind v4 only. Theme tokens in `app/globals.css` `@theme inline`. No CSS modules, no styled-components.
-- **Animation imports**: `import { motion } from "motion/react"` (Motion v12 path). Not `framer-motion`.
-- **shadcn**: install primitives only when needed (`pnpm dlx shadcn@latest add button`). Override radius, color, type classes on every component before merging.
-- **Images**: `next/image` only. AVIF preferred. `priority` on hero only.
-- **Fonts**: load Pangram Pangram via `next/font/local` once licensed. Until then use **PP Editorial New** + **PP Neue Montreal** trial files in `public/fonts/`. Never fall back to Google Fonts.
+- **Components**: colocated. `app/<route>/_components/`. Shared primitives in `components/`.
+- **Styling**: Tailwind v4 only. Tokens in `app/globals.css` `@theme inline`.
+- **Animation imports**: `import { motion } from "motion/react"`. Never `framer-motion`.
+- **shadcn**: install primitives only when needed. Override every default class.
+- **Images**: `next/image` only. AVIF. `priority` on hero only.
+- **Fonts**: `next/font/local` for Pangram Pangram. Never Google Fonts.
 
 ## Workflow
 
-1. Read the relevant section of `DESIGN.md`.
-2. Read the Next.js 16 docs for any API surface you touch.
-3. Sketch the section structure in unstyled HTML first.
-4. Style component-by-component. Don't generate a full page in one pass.
-5. After each component, run a Playwright screenshot and apply the "taste test" from `DESIGN.md` §10.
-6. Lighthouse + accessibility check before any PR merges.
+1. Read the relevant section of DESIGN.md.
+2. Read Next.js 16 docs in `node_modules/next/dist/docs/` for any API touched.
+3. Run the 12-step tool workflow above for the section.
+4. Sketch unstyled HTML first, style after.
+5. Component-by-component. Never generate a full page in one pass.
+6. Playwright screenshot + taste test (DESIGN.md §10) before commit.
+7. Lighthouse + a11y gate before push.
 
-## What to never do
+## Never
 
-- Install a font from Google Fonts.
-- Use the shadcn default look.
-- Add a `whileHover={{ scale }}` on a card.
+- Install a Google Font.
+- Use shadcn defaults.
+- whileHover scale on a card.
 - Ship a section without naming a reference in the commit message.
-- Add a CMS, analytics tool, or third-party widget without checking with the founder.
+- Skip a tool from the 12-step workflow without justification.
+- Add a CMS, analytics, third-party widget without approval.
+
+## Commit message format
+
+Every commit:
+
+```
+<section>: <what changed>
+
+Reference: <site/print piece this pulls from>
+Bans: <what AI-slop pattern this avoids>
+Tools used: <which plugins/MCPs invoked>
+```
 
 ## When in doubt
 
-Default to less. Less motion, less color, less type variation, less section. Editorial sites earn impact through restraint, not addition.
+Default to less. Less motion, less color, less type variation, less section.
