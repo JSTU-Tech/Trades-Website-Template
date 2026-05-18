@@ -10,14 +10,12 @@ Solo founder. Website design + production agency. Full pricing and service ladde
 
 Five target verticals: **trades** (plumber, electrician, HVAC, roofer), **hospitality** (boutique hotels, cafes, restaurants), **professional services** (legal, accounting, financial, consultants), **tech startups** (seed–Series A marketing sites), **local services** (gyms, salons, clinics).
 
-Wedge: better website = more trust, more exposure, better customer experience = more sales. For trades specifically: better site = higher Google ranking = more emergency callouts at premium rates.
+Wedge: **5-figure design quality. 4-figure price. 2-week delivery.** Traditional agencies charge $10K–$30K and take 8–16 weeks. I charge a fraction of that and ship in 14 days. The edge is process — modern tools, no agency overhead, direct founder communication.
 
 Positioning sentence (memorize):
-> **"I build websites for [vertical] that book more jobs than the one you have now. Most sites pay for themselves in 60–90 days — or I keep working until they do."**
+> **"I build the website your business should have had three years ago. Two weeks. A fraction of agency pricing."**
 
-The "or I keep working" clause is the differentiator. Most agencies won't write it.
-
-Tone: founder-direct. Short sentences. Specifics. No "we." No agency-speak.
+Tone: founder-direct. Short sentences. Specifics. No "we." No agency-speak. No ROI guarantees you can't back up.
 
 ---
 
@@ -136,11 +134,10 @@ Five pages. No more.
 4. **Who this is for** — 5 plain cards: Trades / Hospitality / Professional services / Tech startups / Local services. Each card has a one-liner outcome (per BUSINESS.md §1).
 5. **Process** — 4 numbered steps: (1) Strategic audit, (2) Build, (3) Launch, (4) Care plan. One sentence each. SMB anxiety-killer.
 6. **Pricing signal** — exact copy from BUSINESS.md §5:
-   > Projects from $8,500. Most clients invest $12K–$22K.
-   > Strategic audit $750, refundable against any build.
-   > Care plans from $149/month.
-   > Pays back in 60–90 days — or I keep working until it does.
-   No full menu, no tier comparison. Anchor + range + guarantee only.
+   > Sites from $1,500. Most projects $3,000–$5,000.
+   > Live in two weeks.
+   > Care plans from $79/month.
+   No full menu, no tier comparison. Anchor + range + speed claim only.
 7. **Testimonials** — 2–3 real quotes from real owners with real photos.
 8. **About the founder** — 2–3 sentences, photo, LinkedIn link.
 9. **Final CTA** — repeat. "Book a call."
@@ -169,10 +166,10 @@ empower, unleash, supercharge, revolutionize, pixel-perfect,
 
 ### Hero headline (locked)
 
-> **I build websites that turn local searches into booked jobs.**
+> **I build the website your business should have had three years ago.**
 
 Sub-headline:
-> Most small business sites lose customers before they ever pick up the phone. Mine don't. I work with trades, hospitality, and professional services to ship sites that pay for themselves in 60–90 days.
+> Two weeks. A fraction of agency pricing. Trades, hospitality, professional services, tech startups, local services — if your current site looks like 2018, this is for you.
 
 CTA: **Book a call** (not "Get Started", not "Schedule a discovery consultation").
 

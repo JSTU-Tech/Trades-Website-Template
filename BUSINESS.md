@@ -10,7 +10,7 @@ Five verticals. Anything outside these is a referral-out.
 
 | Vertical | Why they buy | The leverage |
 |---|---|---|
-| **Trades** (plumber, electrician, HVAC, roofer, locksmith) | Their current site loses emergency callouts to whoever ranks higher on Google. | A better site = higher trust = more emergency jobs at premium rates. One extra $300 callout/week = $15K/year. |
+| **Trades** (plumber, electrician, HVAC, roofer, locksmith) | Their current site loses emergency callouts to whoever ranks higher on Google. | A better site = higher trust = more emergency jobs at premium rates. |
 | **Hospitality** (boutique hotels, cafes, restaurants) | Their site can't compete with OTAs or Instagram. | A better site = direct bookings (no OTA cut) + better photography = higher ADR. |
 | **Professional services** (legal, accounting, financial advisors, business consultants) | Trust is the entire purchase. Their site looks like 2014. | A better site = perceived authority = bigger retainers. |
 | **Tech startups** (seed–Series A) | Founders building product, site is an afterthought. | A better site = better cold outbound conversion + better investor optics. |
@@ -18,14 +18,19 @@ Five verticals. Anything outside these is a referral-out.
 
 ## 2. The wedge
 
-Better website = more trust, more exposure, better customer experience = more sales. You can also charge more.
+**5-figure design quality. 4-figure price. 2-week delivery.**
 
-For trades specifically: better site = better Google ranking = more emergency appointments at premium rates.
+Traditional agencies charge $10K–$30K and take 8–16 weeks. I charge a fraction of that and ship in 14 days, without sacrificing design quality. The edge is process — modern tools, no agency overhead, direct founder communication, no PM handoff.
 
 Positioning sentence (memorize):
-> **"I build websites for [vertical] that book more jobs than the one you have now. Most sites pay for themselves in 60–90 days — or I keep working until they do."**
+> **"I build the website your business should have had three years ago. Two weeks. A fraction of agency pricing."**
 
-The "or I keep working" clause is the differentiator. Most agencies won't write it.
+Alternate framings depending on prospect:
+- *To trades:* "Most plumber sites haven't been touched since 2018. Yours doesn't have to be one of them."
+- *To hospitality:* "Stop paying 18% to Booking.com. Your own site can do the heavy lifting."
+- *To pros services:* "Your clients spend $5K with you. The site they see first should look the part."
+
+Tone: founder-direct. Short sentences. Specifics. No "we." No agency-speak. No outcome guarantees you can't back up.
 
 ---
 
@@ -33,69 +38,61 @@ The "or I keep working" clause is the differentiator. Most agencies won't write 
 
 Four products. One path through them.
 
-### 3.1 Free Site Teardown — lead magnet
-- 15-minute Loom walkthrough of their current site
-- Surface-level: hero, mobile load, CTAs, conversion leaks
-- No deliverable doc, no strategy. Just enough to make them want the paid audit.
+### 3.1 Free Site Audit — lead magnet
+- 10-minute Loom walkthrough of their current site
+- What's losing them customers, what's working, what I'd change first
+- No deliverable doc. The video is the whole thing.
 - Captured via short form on /contact
+- Free is the right price at this stage — barrier-free entry, qualifies leads, builds trust.
 
-### 3.2 Strategic Audit — $750 (£600)
-- 12-page written report
-- Pages reviewed, technical/SEO issues, conversion leak audit, prioritized roadmap ranked by revenue impact
-- 30-minute strategy call
-- 2 mocked-up hero frames showing direction
-- **Refundable against any build contracted within 30 days.** This kills price objection and qualifies serious buyers.
-- 5–10 business day turnaround.
+### 3.2 Initial Build — three tiers
 
-### 3.3 Initial Build — three tiers
+| Tier | Price | Who it's for | What's included | Timeline |
+|---|---|---|---|---|
+| **Starter** | **$1,500** (£1,200) | Single-page site, local trade, side-business, simple consultant | 1 page (long-scroll), mobile-first, contact form, basic GBP setup | 7 days |
+| **Standard** | **$3,000** (£2,400) | 3–5 page site for cafe, single-location trade, small consultant, early-stage startup | 3–5 pages, custom motion, mobile-first, GBP + basic SEO, contact form or simple booking | 14 days |
+| **Premium** | **$5,000** (£4,000) | 6–8 page site for multi-service trade, boutique hospitality, professional services, growth-stage startup | 6–8 pages, custom motion, integrated booking/lead capture, on-page SEO, brand-aligned photography curation, performance optimization | 21 days |
 
-| Tier | Price | Who it's for | What's included |
-|---|---|---|---|
-| **Foundation** | **$8,500** (£6,800) | Cafe, single-location trade, small consultant | 5 pages, custom design, mobile-first, GBP setup, basic analytics |
-| **Growth** | **$14,500** (£11,500) | Multi-service trade, boutique restaurant, hotel ≤20 rooms, professional services | 6–8 pages, booking/lead integration, custom photography day, SEO foundations, performance optimization |
-| **Signature** | **$24,000** (£19,000) | Boutique hotel, multi-location trade, SaaS marketing site, full content production | 8–12 pages, custom motion, photography + video day, conversion experiments, ongoing strategy |
+Project-based fixed-fee. Payment: 50% on signature, 50% at launch.
 
-Project-based fixed-fee. Not hourly. Payment: 50% on signature, 25% at staging, 25% at launch.
-
-### 3.4 Scope changes — change order at $165/hr (£135/hr)
+### 3.3 Scope changes — change order at $85/hr (£68/hr)
 
 Locked contract clause:
 
-> *"Work outside the deliverables listed above will be billed at $165/hour and requires written approval before work begins."*
+> *"Work outside the deliverables listed above will be billed at $85/hour and requires written approval before work begins."*
 
 Three options on every change request: (a) swap scope (remove X to add Y, no cost change), (b) approve at hourly, (c) park for v2.
 
-Never re-quote the whole project. Trains the client to renegotiate.
+Never re-quote the whole project.
 
-### 3.5 Care Plans — monthly retainer
+### 3.4 Care Plans — monthly retainer
 
-Pitched at end of every build. ~60% of agency lifetime revenue is post-launch. No build ships without a care plan offer.
+Pitched at end of every build. Recurring revenue is what makes the agency sustainable.
 
 | Plan | Monthly | Includes |
 |---|---|---|
-| **Hold** | **$149/mo** (£119/mo) | Hosting, SSL, daily backups, uptime monitoring, security updates, monthly health report |
-| **Grow** | **$449/mo** (£359/mo) | Everything in Hold + 2 hours content edits + GBP management + light SEO + QA |
-| **Compound** | **$1,250/mo** (£995/mo) | Everything in Grow + 5 dev hours + staging environment + A/B test setup + quarterly content shoot (pro-rated) + performance optimization + monthly strategy call |
+| **Hold** | **$79/mo** (£63/mo) | Hosting, SSL, daily backups, uptime monitoring, security updates, monthly health report |
+| **Grow** | **$199/mo** (£159/mo) | Everything in Hold + 1 hour content edits + GBP management + basic SEO check-ins |
+| **Compound** | **$449/mo** (£359/mo) | Everything in Grow + 3 dev hours + staging environment + A/B test setup + quarterly strategy call |
 
-Billing: monthly, 12-month contract with 30-day cancellation. No quarterly-only lock-ins.
+Billing: monthly, 6-month minimum, 30-day cancellation after that.
 
-Photography/video shoots: billable add-on ($1,500–$3,000/day) unless on Compound.
+Photography/video shoots: billable add-on ($500–$1,500/day) — not bundled.
 
 ---
 
-## 4. ROI math — bake into every proposal
+## 4. The pricing pitch — how to frame it
 
-Cite real numbers, not "up to."
+Don't pitch on ROI promises. Pitch on **comparison + speed**.
 
-| Vertical | Example math |
+| Pitch frame | Use when |
 |---|---|
-| **Plumber** | $300 avg callout × 4 extra calls/mo from organic = $1,200/mo. Foundation site payback in 7.5 months. |
-| **Hotel (20 rooms)** | 2 extra direct bookings/mo × $250 ADR × 2 nights = $1,000/mo. Growth site payback in 14 months — but every direct booking saves 15-25% OTA commission, so real payback is half that. |
-| **Cafe** | 10 extra weekly walk-ins × $18 avg ticket × 4 weeks = $720/mo. Foundation site payback in 12 months. Real number is higher with proper menu/hours visibility. |
-| **Consultant** | One extra qualified discovery call/mo × 30% close rate × $5K avg engagement = $1,500/mo. Foundation site payback in 6 months. |
-| **Tech startup** | 1% conversion lift on landing page × $500K ARR = $5K/mo. Growth site payback in 3 months. |
+| "A typical agency would charge $15K and take 3 months. I charge $3K and ship in 2 weeks." | Prospect is comparing to other quotes |
+| "You can keep the site you have, or for the cost of one month of Facebook ads, get one that actually converts." | Prospect is hesitant on spend |
+| "I'm 20, I work fast, I don't carry agency overhead. That's the deal — it's why I can charge what I charge." | Prospect questions your age/experience. Own it. |
+| "Take it as a write-off against this quarter. It'll be live before next month's invoice runs." | Prospect is a small business owner |
 
-Industry benchmark: UX/CRO redesigns average +41% ROI in 6 months (Marketpath, Rewebly 2026 data).
+Honesty about being early-career is a feature, not a bug. The 20-year-old who shows up with a $20K-looking demo site is more interesting than the 35-year-old quoting $15K.
 
 ---
 
@@ -103,14 +100,12 @@ Industry benchmark: UX/CRO redesigns average +41% ROI in 6 months (Marketpath, R
 
 On Home §6 (Pricing signal section):
 
-> **Projects from $8,500.**
-> Most clients invest $12K–$22K.
-> Strategic audit $750, refundable against any build.
-> Care plans from $149/month.
->
-> Pays back in 60–90 days — or I keep working until it does.
+> **Sites from $1,500.**
+> Most projects $3,000–$5,000.
+> Live in two weeks.
+> Care plans from $79/month.
 
-That's the entire pricing section copy. No full menu. No tier comparison table on home. Full breakdown lives on a /pricing page if needed later, but anchor + range + guarantee is enough.
+That's the whole pricing section copy. No full menu. No guarantees. No tier comparison table. Anchor + range + speed claim.
 
 Show pricing. Hidden pricing is the #1 SMB drop-off.
 
@@ -118,36 +113,37 @@ Show pricing. Hidden pricing is the #1 SMB drop-off.
 
 ## 6. Banned mistakes — non-negotiable
 
-1. **Never hourly-only.** Reads as junior, caps income, invites scope creep. Hourly only appears in change orders.
-2. **Never below the floor.** Build floor: $7,500. Retainer floor: $149/mo. "I'll do it for $2,500 to get started" locks you out of the market.
-3. **Never ship a build without offering a care plan.** Default add at proposal.
-4. **Never 5+ pricing tiers.** Three max. SMB decision fatigue kills deals.
-5. **Never "custom quote, contact us" with no anchor.** Always show a "from" number.
-6. **Never unlimited revisions.** Cap at 2 rounds per phase.
-7. **Never Net-30 or less than 50% deposit.** You're not financing the client's cash flow.
-8. **Never sell deliverables, always outcomes.** "10-page site" vs "booked jobs in 60 days" — the second closes.
-9. **Never discount on the first call.** Once you discount, you've taught them the price was inflated. Hold the line; offer smaller scope instead.
+1. **Never hourly-only.** Hourly only appears in change orders.
+2. **Never below the floor.** Build floor: $1,500. Retainer floor: $79/mo. "I'll do it for $500 to get my first client" is a trap.
+3. **Never promise ROI you can't measure.** No "pays back in X days" claims without the data to back them. Reframe as "two weeks live, fraction of agency cost."
+4. **Never ship a build without offering a care plan.** Default add at proposal.
+5. **Never 5+ pricing tiers.** Three max. SMB decision fatigue kills deals.
+6. **Never "custom quote, contact us" with no anchor.** Always show a "from" number.
+7. **Never unlimited revisions.** Cap at 2 rounds per phase.
+8. **Never less than 50% deposit.**
+9. **Never discount on the first call.** Once you discount, you've taught them the price was inflated. Hold the line; offer smaller scope (drop to Starter).
 
 ---
 
 ## 7. Pricing growth path
 
-| Stage | Build floor | When |
-|---|---|---|
-| Foundation | $8,500 | Months 0–6, get first 3 wins |
-| +20% | $10,200 | Month 6, after 3 case studies. Honour existing retainers at old rate for 12 months. |
-| +15–25% | $12,000–$13,000 | Month 12. Grandfather only quarterly retainers. |
-| Premium-solo | $15,000+ | Month 18+, with 5+ case studies and waiting list |
+Raise prices when you have evidence to justify it. Three case studies = first raise.
 
-Designjoy is the reference: 1 person, 40+ clients, $1.5M ARR. The solo-premium model works when you hold the line.
+| Stage | Standard tier price | When |
+|---|---|---|
+| Foundation | $3,000 | Months 0–6, get first 3 wins. Don't budge from $1,500 floor. |
+| +33% | $4,000 | Month 6, after 3 case studies. Honour existing retainers at old rate for 12 months. |
+| +25% | $5,000 | Month 12, after 6 case studies and one testimonial video. |
+| Premium-solo | $7,500+ | Month 18+, when there's a waiting list. |
+
+The path is real. Designjoy proves the solo-premium model works — but they got there over years, starting cheaper than they ended.
 
 ---
 
 ## 8. Reference competitors (for positioning, not imitation)
 
-- **Tuesday** ([tuesday.is](https://tuesday.is)) — care plan reference, transparent tier comparison
-- **Designjoy** ([designjoy.co](https://designjoy.co)) — solo-premium subscription model
-- **Claremont Software** — plumber-specialist productized agency
-- **Loclweb** — volume trades web design
+- **Designjoy** ([designjoy.co](https://designjoy.co)) — solo-premium subscription model, the eventual ceiling
+- **Tuesday** ([tuesday.is](https://tuesday.is)) — care plan reference
+- **Loclweb** — volume trades web design (you don't want to be this, but know the price floor)
 
-The first two are who you're competing with for premium SMB. The second two are the floor you don't want to be confused with.
+The lesson: start cheaper than you'll end. Hold the line on quality. Raise prices with proof, not hope.
