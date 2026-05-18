@@ -6,10 +6,16 @@ This is the brief. Everything below is locked. Don't deviate without explicit ap
 
 ## 1. The business this is selling
 
-Solo founder. Website design + production agency. Wedge: a better website is the cheapest growth channel SMB clients aren't using. Buyers are trades, hospitality, professional services, e-commerce — owners with weak/dated sites, not marketing directors.
+Solo founder. Website design + production agency. Full pricing and service ladder is locked in `BUSINESS.md` — read it before any copy or pricing decision.
+
+Five target verticals: **trades** (plumber, electrician, HVAC, roofer), **hospitality** (boutique hotels, cafes, restaurants), **professional services** (legal, accounting, financial, consultants), **tech startups** (seed–Series A marketing sites), **local services** (gyms, salons, clinics).
+
+Wedge: better website = more trust, more exposure, better customer experience = more sales. For trades specifically: better site = higher Google ranking = more emergency callouts at premium rates.
 
 Positioning sentence (memorize):
-> **"I build websites for [trades / hospitality / professional services] that book more jobs than the one you have now. Most sites pay for themselves in 60–90 days."**
+> **"I build websites for [vertical] that book more jobs than the one you have now. Most sites pay for themselves in 60–90 days — or I keep working until they do."**
+
+The "or I keep working" clause is the differentiator. Most agencies won't write it.
 
 Tone: founder-direct. Short sentences. Specifics. No "we." No agency-speak.
 
@@ -127,9 +133,14 @@ Five pages. No more.
 1. **Hero** — value prop sentence, one supporting line, one CTA ("Book a call"). Founder name + small photo. No carousel, no animated background.
 2. **Proof bar** — 4–6 client names as text (not logos), OR a single big number ("$3.2M in tracked client revenue").
 3. **Featured case study** — one, full-width, real outcome visible without clicking.
-4. **Who this is for** — 3 plain cards: Trades & home services / Hospitality / Professional services. Each card has a one-liner outcome.
-5. **Process** — 4 numbered steps, one sentence each. SMB anxiety-killer.
-6. **Pricing signal** — "Projects from $X. Most clients invest between $X–$Y." Will out-convert any testimonial.
+4. **Who this is for** — 5 plain cards: Trades / Hospitality / Professional services / Tech startups / Local services. Each card has a one-liner outcome (per BUSINESS.md §1).
+5. **Process** — 4 numbered steps: (1) Strategic audit, (2) Build, (3) Launch, (4) Care plan. One sentence each. SMB anxiety-killer.
+6. **Pricing signal** — exact copy from BUSINESS.md §5:
+   > Projects from $8,500. Most clients invest $12K–$22K.
+   > Strategic audit $750, refundable against any build.
+   > Care plans from $149/month.
+   > Pays back in 60–90 days — or I keep working until it does.
+   No full menu, no tier comparison. Anchor + range + guarantee only.
 7. **Testimonials** — 2–3 real quotes from real owners with real photos.
 8. **About the founder** — 2–3 sentences, photo, LinkedIn link.
 9. **Final CTA** — repeat. "Book a call."

@@ -1,9 +1,12 @@
 @AGENTS.md
 @DESIGN.md
+@BUSINESS.md
 
 ## Project context
 
-Brand-new website design + production agency's demo site. The site IS the portfolio — cold prospects judge the founder by it. Read DESIGN.md before any code. Brief is locked. Bans absolute.
+Brand-new website design + production agency's demo site. The site IS the portfolio — cold prospects judge the founder by it. Read DESIGN.md and BUSINESS.md before any code. Brief is locked. Bans absolute. Pricing is locked.
+
+When writing pricing copy, target-vertical language, or service descriptions: reference BUSINESS.md exclusively. Do not invent prices, tiers, or service names.
 
 ## Tools you MUST use (not optional)
 
